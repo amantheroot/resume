@@ -141,6 +141,20 @@
         .education > div {
             margin: 23px 0;
         }
+        .pdf__download {
+            position: fixed;
+            top: 2.5%;
+            right: 10%;
+            font-size: 1.75rem;
+            color: white;
+            background-color: #324B5E;
+            padding: 10px;
+            border: 2px solid #324B5E;
+            transition: background-color 0.5s ease;
+        }
+        .pdf__download:hover {
+            background-color: #425F74;
+        }
     </style>
 </head>
 <body>
@@ -281,5 +295,8 @@
             </section>
         </main>
     </div>
+    <a class="pdf__download" title="Download Resume PDF" href="./Aman_Kumar_Resume.pdf" download>
+        <i class="fa fa-download"></i>
+    </a>
 </body>
 </html>
