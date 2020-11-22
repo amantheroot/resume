@@ -129,8 +129,11 @@
       .projects > div {
         margin: 20px 0;
       }
-      .projects strong {
-        margin-bottom: 12px;
+      .projects .apart {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        margin-bottom: 6px;
       }
       .projects p {
         margin: 5px 0;
@@ -138,6 +141,10 @@
       .projects ul {
         margin: 0;
         margin-top: 8px;
+      }
+      .projects ul li a {
+        color: #3c576a;
+        text-decoration: underline;
       }
       .education p {
         margin: 2px 0;
@@ -179,73 +186,113 @@
           <section>
             <h3>Summary</h3>
             <p>
-              Proficient Full Stack Web Developer with 2+ years of experience in
-              designing and developing Web Applications. Passionate about
-              learning new technologies such as Machine Learning and Deep
-              Learning.
+              Proficient Full Stack Web Developer with 2+ years of broad
+              experience in developing Robust MERN/MEAN Stack Web Applications
+              with willingness to learn and master Machine Learning & Deep
+              Learning. Adept at Back End NodeJS Development.
             </p>
           </section>
           <hr />
           <section class="projects">
-            <h3>Projects</h3>
+            <h3>Work Experience</h3>
             <div>
-              <strong
-                >Developed a physics engine for an atari game on a
-                webpage</strong
-              >
+              <div class="apart">
+                <strong>Rentastico (OPC) Pvt Ltd</strong>
+                <strong><em>2020 Jan - Present</em></strong>
+              </div>
               <p>
-                Developed a portfolio webpage using ReactJS & Redux that also
-                had an inbuilt atari game, fully developed using JavaScript. No
-                libraries were used as the game engine was built from vanilla
-                JavaScript from scratch.
+                Helping Rentastico develop and launch 3 PWA E-Commerce Full
+                Stack Web Applications (MEAN Stack) and a Live Stream E-Commerce
+                Solution using Kurento Media Server & MEAN Stack.
               </p>
               <ul>
-                <li>Technologies Used: ReactJS, Redux, JavaScript, PWA</li>
                 <li>
-                  Optimized the performance of the website to perform 200%
-                  faster than traditional html sites
+                  Technologies Used: Angular 10, Ionic, NodeJS, Express.js, JWT,
+                  MongoDB, Elasticsearch, Kurento (WebRTC)
+                </li>
+                <li>
+                  Developed a full stack live stream e-commerce solution using
+                  WebRTC that performs <em>50%</em> faster than existing live
+                  stream solutions.
                 </li>
               </ul>
             </div>
             <div>
-              <strong>Built a bot for discord using NodeJS</strong>
+              <div class="apart">
+                <strong>Innomatics Research Labs</strong>
+                <strong><em>2020 Oct - Present</em></strong>
+              </div>
               <p>
-                Created a bot for an online social media platform that uses Rest
-                APIs and MongoDB to serve various commands.
+                Developed a fully fledged headless CMS along with an admin
+                dashboard & a viewing engine that reduced the time for content
+                management process by <em>40%</em> over existing CMS solutions.
               </p>
               <ul>
-                <li>Technologies Used: NodeJS, MongoDB, Restful APIs</li>
                 <li>
-                  Fetches and stores data in a cloud databsase using MongoDB
+                  Technologies Used: Next.js, Ant Design, Express.js, JWT,
+                  MongoDB, NodeJS
                 </li>
-                <li>Uses Restful APIs for fetching the required data</li>
-              </ul>
-            </div>
-            <div>
-              <strong>Developed a website for a local pizza shop</strong>
-              <p>
-                Developed a static website for a local pizza shop situated in
-                Pune. Improving their sales by 350%, also with perfect SEO,
-                ranking #1 in google search results.
-              </p>
-              <ul>
-                <li>Technologies Used: HTML, CSS, JavaScript</li>
-                <li>Scored a perfect 100 in google lighthouse analysis</li>
-                <li>Designed a Responsive Mobile Friendly Design</li>
-              </ul>
-            </div>
-            <div>
-              <strong>Developed a video processing algorithm</strong>
-              <p>
-                Developed an algorithm using OpenCV which processes a video of
-                piano notes waterfall (syntheisa) and returns a video file
-                displaying the notes as text.
-              </p>
-              <ul>
-                <li>Technologies Used: Python, OpenCV</li>
                 <li>
-                  Implemented color detection to extract certain colors from
-                  each frame of the video
+                  Implemented a CRM Architecture along with a role management
+                  system for enhanced authentication.
+                </li>
+                <li>
+                  Developed better SEO manipulation for the CMS that improved
+                  SEO performance by <em>35%</em>.
+                </li>
+              </ul>
+            </div>
+            <div>
+              <div class="apart">
+                <strong>Houp</strong>
+                <strong><em>2020 Jun - 2020 Nov</em></strong>
+              </div>
+              <p>
+                Developed & launched a fully featured full stack social media
+                networking Progressive Web App for Houp with a
+                <em>perfect</em> score on Google Lighthouse.
+              </p>
+              <ul>
+                <li>
+                  Technologies Used: Next.js, Express.js, JWT, MJML, MongoDB
+                </li>
+                <li>
+                  Implemented all PWA features like service workers, cache
+                  storage, etc. for better user experience.
+                </li>
+                <li>
+                  Project Link -
+                  <a href="https://houp.app" target="_blank"
+                    >https://houp.app</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div>
+              <div class="apart">
+                <strong>Static Web Pages</strong>
+              </div>
+              <p>
+                Designed & developed various static landing web pages using
+                HTML, CSS, JS for local businesses that boosted their sales
+                significantly.
+              </p>
+              <ul>
+                <li>
+                  PizzaXprs -
+                  <a
+                    href="https://priceless-ride-41f4fc.netlify.app/"
+                    target="_blank"
+                    >https://priceless-ride-41f4fc.netlify.app/</a
+                  >
+                </li>
+                <li>
+                  TransOX -
+                  <a
+                    href="https://elegant-villani-bb0afe.netlify.app/"
+                    target="_blank"
+                    >https://elegant-villani-bb0afe.netlify.app/</a
+                  >
                 </li>
               </ul>
             </div>
@@ -301,7 +348,11 @@
             <ul class="contact__main">
               <li>
                 <i class="fas fa-envelope"></i
-                ><span>amantheroot@gmail.com</span>
+                ><span
+                  ><a href="mailto:amantheroot@gmail.com" target="_blank"
+                    >amantheroot@gmail.com</a
+                  ></span
+                >
               </li>
               <li><i class="fas fa-phone"></i><span>+91 8897482537</span></li>
               <li>
@@ -317,20 +368,28 @@
           <section>
             <h3>Skills</h3>
             <ul class="skills">
-              <li>Full Stack Web Development</li>
               <li>ReactJS Front End Development</li>
+              <li>Angular Front End Development</li>
               <li>NodeJS Back End Development</li>
               <li>MongoDB Database Development</li>
-              <li>Restful APIs Development</li>
-              <!-- <li>Deployment of apps with Azure and Docker</li> -->
+              <li>RESTful APIs Development</li>
+              <li>Next.js</li>
+              <li>Express.js</li>
+              <li>JWT Authentication</li>
+              <li>Typescript</li>
+              <li>Git</li>
+              <li>Visual Studio Code</li>
+              <li>Postman</li>
+              <li>HTML/CSS</li>
               <li>JavaScript Programming</li>
               <li>Python Programming</li>
-              <li>Machine Learning</li>
+              <!-- <li>Deployment of apps with Azure and Docker</li> -->
+              <!-- <li>Machine Learning</li> -->
               <!-- <li>Deep Learning</li> -->
-              <li>Image Processing with OpenCV</li>
+              <!-- <li>Image Processing with OpenCV</li> -->
               <!-- <li>NLP (Natural Language Processing)</li> -->
               <li>Active Listening</li>
-              <li>Communication</li>
+              <li>Coherent Communication</li>
               <li>Problem-Solving</li>
               <li>Strong Work Ethic</li>
               <li>Cooperative</li>
